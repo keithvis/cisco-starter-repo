@@ -1,11 +1,10 @@
 import './App.css';
-
+import "./components/Banner"
+import Banner from './components/Banner';
 function App() {
   return (
     <div className="App">
-        <p>
-        Welcome to React
-        </p>
+      <Banner name="Sextant"/>
         <a
           className="App-link"
           href="https://reactjs.org"

@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.banner{
+  background-image:url("components/vintage-g88fae9922_1920.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: white;
+  font-size: xx-large;
+  height: 300px;
+  padding: 10px;
+
+}
