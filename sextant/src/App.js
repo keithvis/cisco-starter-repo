@@ -4,6 +4,7 @@ import Banner from './components/Banner';
 import Card from './components/Card';
 import Exhibit from './components/Exhibit';
 import React from 'react';
+import IP from './components/IP';
 
 
  
@@ -12,8 +13,9 @@ function App() {
     <div className="App">
       <Banner name="Sextant" />
       <Exhibit>
-        <Card name="ip" value="1.1.1.1.1" ></Card>
-        <Card name="latency" value="1000 nanoseconds" ></Card>
+
+        <IP IP="ipv4" ></IP>
+        <IP IP="ipv6" ></IP>
       </Exhibit>
 
 
