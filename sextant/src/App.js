@@ -5,6 +5,7 @@ import Card from './components/Card';
 import Exhibit from './components/Exhibit';
 import React from 'react';
 import IP from './components/IP';
+import Latency from './components/Latency';
 
 
  
@@ -16,8 +17,9 @@ function App() {
 
         <IP IP="ipv4" ></IP>
         <IP IP="ipv6" ></IP>
-      </Exhibit>
+        <Latency></Latency>
 
+      </Exhibit>
 
     </div>
   );
